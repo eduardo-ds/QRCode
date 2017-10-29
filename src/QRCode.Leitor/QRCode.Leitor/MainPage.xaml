@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:QRCode.Leitor"
+             x:Class="QRCode.Leitor.MainPage" Title="Leitor QRCode">
+
+    <StackLayout>
+        <Button Text="Capturar QRCode" Clicked="Button_Clicked" />
+        <Button Text="códigos capturados" Clicked="Button_Clicked_1" />
+        <Label x:Name="lblCodigo" />
+    </StackLayout>
+</ContentPage>
